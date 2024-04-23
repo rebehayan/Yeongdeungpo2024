@@ -5,3 +5,7 @@
 ## 학습 저장소 복제
 
 학습 저장소를 복제하는 명령어를 복사하여 터미널에 붙여넣고 실행합니다.
+
+```bash
+npx degit rebehayan/Yeongdeungpo2024_Basic .
+```
