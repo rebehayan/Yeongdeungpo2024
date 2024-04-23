@@ -177,12 +177,12 @@ select {
 }
 
 html {
-  font-size: 62.5%;
+  /*font-size: 62.5%;*/
   -webkit-text-size-adjust: none;
 }
 
 body {
-  font-size: 1rem;
+  /* font-size: 1rem;*/
 }
 
 caption,
