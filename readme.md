@@ -12,4 +12,6 @@ npx degit rebehayan/Yeongdeungpo2024_Basic#02_list .
 
 ## HTML + CSS
 
-`<table>`태그에 대해서 알아보고 CSS를 활용해 스타일링 합니다.
+- `<ul>`,`<li>`태그에 대해서 알아보고 CSS를 활용해 스타일링 합니다.
+- Grid Layout에 대해 학습합니다.
+- 말줄임표인 ellipsis에 대해서 학습합니다.
