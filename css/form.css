@@ -1,0 +1,44 @@
+body {
+  padding: 20px;
+}
+.search {
+  --line: #cecece;
+  --black: #000;
+  --text: #777777;
+  --btnBg: #da0029;
+  --white: #fff;
+
+  border: 1px solid var(--line);
+  th {
+    color: var(--black);
+    font-size: 14px;
+    font-weight: 400;
+    padding: 7px 0;
+    background: url(../images/bg_line.svg) no-repeat right;
+  }
+  tr:first-child {
+    th,
+    td {
+      padding-top: 17px;
+      padding-bottom: 7px;
+      background-position: right 22px;
+    }
+  }
+  tr:last-child {
+    th,
+    td {
+      padding-top: 7px;
+      padding-bottom: 17px;
+      background-position: right 21px;
+    }
+  }
+  td {
+    padding: 7px 20px;
+    color: var(--text);
+  }
+}
+
+.check-list {
+  display: flex;
+  gap: 30px;
+}
