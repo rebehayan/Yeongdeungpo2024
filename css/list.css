@@ -114,6 +114,11 @@ body {
   --text: #3c2e30;
   --price: #333;
   --slash: #c3c0c3;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 41px 35px;
+  margin-top: 21px;
 }
 .product-list__thumbnail {
   position: relative;
