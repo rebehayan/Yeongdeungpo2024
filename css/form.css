@@ -1,6 +1,14 @@
 body {
   padding: 20px;
 }
+.form {
+  button,
+  select,
+  textarea,
+  input {
+    border: 1px solid #cecece;
+  }
+}
 .search {
   --line: #cecece;
   --black: #000;
@@ -8,7 +16,9 @@ body {
   --btnBg: #da0029;
   --white: #fff;
 
-  border: 1px solid var(--line);
+  table {
+    border: 1px solid var(--line);
+  }
   th {
     color: var(--black);
     font-size: 14px;
@@ -41,4 +51,33 @@ body {
 .check-list {
   display: flex;
   gap: 30px;
+}
+
+.search__word {
+  display: grid;
+  grid-template-columns: 1fr 85px;
+  gap: 10px;
+  margin-top: 10px;
+  input {
+    height: 40px;
+    border: 1px solid var(--line);
+  }
+  button {
+    color: var(--white);
+    font-size: 16px;
+    background-color: var(--btnBg);
+  }
+}
+
+.check-type1 {
+  display: none;
+  + label {
+    padding-left: 18px;
+    background: url(../images/bg_check_off.svg) no-repeat left;
+  }
+  &:checked {
+    + label {
+      background: url(../images/bg_check_on.svg) no-repeat left;
+    }
+  }
 }
