@@ -50,7 +50,8 @@ body {
 
 .check-list {
   display: flex;
-  gap: 30px;
+  flex-wrap: wrap;
+  gap: 0 30px;
 }
 
 .search__word {
@@ -66,12 +67,20 @@ body {
     color: var(--white);
     font-size: 16px;
     background-color: var(--btnBg);
+    border: 1px solid var(--btnBg);
+    transition: 0.5s;
+    &:hover {
+      color: var(--btnBg);
+      background-color: var(--white);
+      font-size: 14px;
+    }
   }
 }
 
 .check-type1 {
   display: none;
   + label {
+    white-space: nowrap;
     padding-left: 18px;
     background: url(../images/bg_check_off.svg) no-repeat left;
   }

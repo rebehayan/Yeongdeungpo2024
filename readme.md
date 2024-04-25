@@ -13,3 +13,4 @@ npx degit rebehayan/Yeongdeungpo2024_Basic#03_form .
 ## HTML + CSS
 
 - 온라인 서식에 대해서 알아보고 CSS를 활용해 스타일링 합니다.
+- CSS 애니메이션을 학습합니다.
