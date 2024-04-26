@@ -15,3 +15,5 @@ npx degit rebehayan/Yeongdeungpo2024_Basic#04_webproject .
 ## HTML + CSS
 
 - 웹사이트를 구현합니다.
+- GNB를 :has() 선택자를 이용해 구현해 봅니다.
+- overflow에 대해서 학습합니다.
