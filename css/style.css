@@ -84,6 +84,11 @@ body {
       font-weight: 500;
       line-height: 200%;
       letter-spacing: -0.8px;
+      white-space: nowrap;
+      &:hover {
+        color: var(--blue);
+        text-decoration: underline;
+      }
     }
   }
 }
