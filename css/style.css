@@ -29,13 +29,25 @@ body {
   nav {
     justify-self: center;
   }
+  &:has(.gnb:hover) {
+    + .bg-nav {
+      height: 190px;
+    }
+  }
 }
 
 .gnb {
+  position: relative;
+  z-index: 1001;
   display: flex;
   gap: 100px;
-  * {
-    /* border: 1px solid yellow; */
+  &:hover {
+    .depth2 {
+      padding-top: 20px;
+      opacity: 1;
+      height: auto;
+      overflow: visible;
+    }
   }
   > li {
     position: relative;
@@ -66,18 +78,17 @@ body {
           width: 100%;
         }
       }
-      .depth2 {
-        display: block;
-        padding-top: 20px;
-      }
     }
   }
   .depth2 {
-    display: none;
     position: absolute;
     width: 100%;
     left: 0;
     top: 81px;
+    opacity: 0;
+    transition: 0.3s;
+    height: 0;
+    overflow: hidden;
     a {
       color: var(--gray66);
       font-size: 16px;
@@ -131,4 +142,14 @@ body {
   border-radius: 20px;
   background: var(--blue);
   align-items: center;
+}
+.bg-nav {
+  position: fixed;
+  left: 0;
+  top: 92px;
+  z-index: 1000;
+  width: 100%;
+  height: 0;
+  background-color: var(--white);
+  transition: 0.3s;
 }
