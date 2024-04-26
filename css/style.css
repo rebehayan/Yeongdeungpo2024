@@ -7,6 +7,7 @@
   --gray99: #999999;
   --graycc: #cccccc;
   --graye1: #e1e1e1;
+  --grayf2: #f2f2f2;
   --green: #75cb67;
   --orange: #f08a40;
   --puple: #b174ee;
@@ -16,6 +17,9 @@
 }
 
 .header {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.header-center {
   display: grid;
   grid-template-columns: 200px 1fr 200px;
   align-items: center;
@@ -156,11 +160,24 @@
   border-top: 1px solid var(--gray99);
   border-bottom: 1px solid var(--graye1);
 }
+.footer-bottom {
+  background-color: var(--grayf2);
+}
 .footer-center {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: 1224px;
   margin: 0 auto;
+  height: 69px;
+  .footer-bottom & {
+    padding-top: 20px;
+    gap: 10px;
+    flex-direction: column;
+    height: 149px;
+    justify-content: start;
+    align-items: start;
+  }
 }
 .footer-nav {
   display: flex;
