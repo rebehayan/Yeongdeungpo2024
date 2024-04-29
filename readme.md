@@ -1,4 +1,4 @@
-# 웹퍼블리셔
+# 웹사이트구축
 
 영등포 학습저장소
 
@@ -9,10 +9,10 @@
 3. 학습 저장소를 복제하는 명령어를 복사하여 터미널에 붙여넣고 실행합니다.
 
 ```bash
-npx degit rebehayan/Yeongdeungpo2024_Basic#05_webproject_footer .
+npx degit rebehayan/Yeongdeungpo2024_Basic#06_webproject_visual .
 ```
 
 ## HTML + CSS
 
 - 웹사이트를 구현합니다.
-- 웹사이트의 `Footer`영역을 제작합니다.
+- 웹사이트의 `visual`영역을 제작합니다.
