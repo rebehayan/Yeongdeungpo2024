@@ -3,6 +3,6 @@
 // boolean
 // undefined
 // null
-// object
-// array
-// function
+// object 객체
+// array 배열
+// function 함수
